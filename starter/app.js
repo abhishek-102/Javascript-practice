@@ -19,6 +19,7 @@ document.querySelector('#score-1').innerHTML='0';
 
 document.querySelector('.btn-roll').addEventListener('click',function()
 {
+    // roll dice functionality
     var dice=Math.floor(Math.random()*6)+1;
     var dicedom= document.querySelector('.dice');
         document.querySelector('.dice').style.display="block";
